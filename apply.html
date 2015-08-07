@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- title and meta -->
+    <meta charset="utf-8">
+
+    <title>FakeBank</title><!-- css -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Slab" rel=
+    "stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="grid.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="info-bar">
+            <div class="container">
+                <h1><a class="logo" href="index.html"><img src=
+                "images/fakebanklogo.png"></a></h1>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="home" href="index.html">home</a>
+                        </li>
+
+                        <li>
+                            <a class="apply" href="apply.html">apply</a>
+                        </li>
+
+                        <li>
+                            <a class="about" href="about.html">about</a>
+                        </li>
+
+                        <li>
+                            <a class="contact" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <form>
+                <fieldset>
+                    <legend>Get Pre-Approved Now!</legend> First name:<br>
+                    <input name="firstname" type="text"><br>
+                    Last name:<br>
+                    <input name="lastname" type="text"><br>
+                    Phone number<br>
+                    <input name="phone" type="text"><br>
+                    Street Address:<br>
+                    <input name="street" type="text"><br>
+                    City<br>
+                    <input name="city" type="text"><br>
+                    State:<br>
+                    <input name="state" type="text"><br>
+                    Zip Code:<br>
+                    <input name="zip" type="text"><br>
+
+                    <form action="#" enctype="multipart/form-data" method=
+                    "post" onsubmit="return false">
+                        <p><label for="select_loan">Select Loan
+                        Amount</label><br>
+                        <select id="select_dd" name="select_dd">
+                            <option value="1">
+                                -- Select Loan Amount --
+                            </option>
+
+                            <option value="2">
+                                $0-$50,000
+                            </option>
+
+                            <option value="3">
+                                $50,000-$100,000
+                            </option>
+
+                            <option value="4">
+                                $100,000-$250,000
+                            </option>
+
+                            <option value="5">
+                                $250,000-$500,000
+                            </option>
+
+                            <option value="6">
+                                $500,000-$1,000,000
+                            </option>
+                        </select><br>
+                        <select id="select_dd" name="select_dd">
+                            <option value="1">
+                                -- Select Mortgage Type --
+                            </option>
+
+                            <option value="2">
+                                Fixed-Rate Mortgage
+                            </option>
+
+                            <option value="3">
+                                Variable-Rate Mortgage
+                            </option>
+
+                            <option value="4">
+                                VA Loan
+                            </option>
+
+                            <option value="5">
+                                Baloon Mortgage
+                            </option>
+
+                            <option value="6">
+                                Interest-Only
+                            </option>
+
+                            <option value="6">
+                                Reverse-Mortgage
+                            </option>
+                        </select></p><input id="submit" type="submit" value=
+                        "Submit">
+                    </form>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
