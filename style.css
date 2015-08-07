@@ -1,0 +1,252 @@
+html {
+    font-family:sans-serif;
+/* 1 */
+    -ms-text-size-adjust:100%;
+/* 2 */
+    -webkit-text-size-adjust:100%
+/* 2 */
+}
+
+body {
+    font-family:Roboto Slab,Verdana,sans-serif;
+    color:#111
+}
+
+a {
+    color:#003B6F
+}
+
+/* ============================================================
+  TABLES
+============================================================ */
+table.table1 {
+    width:960px;
+    border-spacing:5px 15px
+}
+
+th {
+    padding:10px;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:70%;
+    border-bottom:none;
+    border-top:none;
+    text-align:center
+}
+
+table.table2 {
+    width:400px
+}
+
+th,td {
+    padding:7px 10px 10px
+}
+
+th {
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:90%;
+    border-bottom:none;
+    border-top:1px solid #999;
+    text-align:center
+}
+
+tr {
+    background-color:#fff
+}
+
+/* ============================================================
+  NAVIGATION
+============================================================ */
+li,li a {
+    display:inline;
+    margin-right:10px;
+    acolor:#09F
+}
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+    margin-bottom:0
+}
+
+section.module h2 {
+    margin-bottom:40px;
+    font-family:"Roboto Slab",serif;
+    font-size:30px
+}
+
+section.module p {
+    margin-bottom:40px;
+    font-size:16px;
+    font-weight:300
+}
+
+section.module p:last-child {
+    margin-bottom:0
+}
+
+section.module.content {
+    padding:40px 0;
+    font-size:12px
+}
+
+section.module.content.forms {
+    padding:10px;
+    margin:100px;
+    font-size:12px;
+    font-family:Roboto Slab;
+    float:left;
+    text-align:right
+}
+
+section.module.parallax {
+    height:600px;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover
+}
+
+section.module.parallax h1 {
+    color:rgba(255,255,255,0.8);
+    font-size:24px;
+    line-height:600px;
+    font-weight:70;
+    text-align:center;
+    text-transform:none;
+    text-shadow:0 0 10px rgba(0,0,0,0.2)
+}
+
+section.module.parallax-1 {
+    background-image:url(images/home-1.jpg);
+    text-align:center
+}
+
+section.module.parallax-2 {
+    background-image:url(images/home-2.jpg)
+}
+
+section.module.parallax-3 {
+    background-image:url(../img/demo/_small/3.jpg)
+}
+
+@media all and (min-width: 600px) {
+section.module h2 {
+    font-size:42px;
+    color:#000
+}
+
+section.module p {
+    font-size:14px
+}
+
+section.module.parallax h1 {
+    font-size:48px
+}
+}
+
+@media all and (min-width: 960px) {
+section.module.parallax h1 {
+    font-size:64px
+}
+}
+
+/* ============================================================
+  FORMS
+============================================================ */
+font-family: Roboto Slab,sans-serif;
+color: #665544;
+input {
+    border-bottom:1px dotted #dcdcdc;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    padding-right:5px;
+    width:280px;
+    margin-bottom:20px;
+    float:left
+}
+
+input:focus {
+    border:1px dotted #dcdcdc;
+    outline:none
+}
+
+input#submit {
+    color:#fff;
+    background-color:#c0d5db;
+    border:none;
+    border-radius:5px;
+    width:80px;
+    font-family:Roboto Slab;
+    font-size:100%
+}
+
+input#submit:hover {
+    color:#654;
+    background-color:#efefef
+}
+
+fieldset {
+    width:350px;
+    border:1px solid #dcdcdc;
+    border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+    float:left;
+    text-align:left
+}
+
+legend {
+    background-color:#c0d5db;
+    border:1px solid #dcdcdc;
+    border-radius:10px;
+    padding:10px 20px;
+    text-align:left;
+    text-transform:uppercase
+}
+
+textarea {
+    width:500px;
+    height:100px;
+    max-width:100%
+}
+
+/* ============================================================
+  ABOUT
+============================================================ */
+body {
+    background-color:#fff
+}
+
+#about article.person {
+    background-color:#e0e0e0;
+    float:left;
+    min-height:250px;
+    margin:1%;
+    padding:2%;
+    width:27.33%;
+    text-align:center;
+    font-family:Roboto Slab
+}
+
+#about article.break {
+    clear:both
+}
+
+#about article img {
+    display:block;
+    margin:1em auto
+}
+
+#about article.desc {
+    font-family:Roboto Slab;
+    text-align:center;
+    width:600px;
+    position:relative
+}
